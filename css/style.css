@@ -1,0 +1,135 @@
+*{
+    background: #fdddf2;
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    
+}
+.body {
+	background: #fdddf2;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    }
+.cabecera__cards {
+	margin: 0px 0;
+	height: auto;
+    width: auto;
+}
+
+.card__logo {
+	width: 400px;
+	height: 200px;
+	margin-right: 0px;
+	border-radius: 0px;
+	overflow: hidden;
+	display: inline-block;
+}
+.card__img {
+	width: 250px;
+	overflow: hidden;
+}
+.card {
+    
+	background-size: 50%;
+    /*background: #fff;*/
+    border-radius: 0px;
+	padding: 0px;
+	display:flex;
+	align-items: center;
+	position: relative;
+	margin-bottom: 50px;
+	/*opacity: 0.2;*/
+    width: 100%;
+}
+.cabecera {   
+	max-width: 10000px;
+	width: 100% auto;
+	margin: 0 ;
+    font-size: 1em;
+
+}
+.titulo{
+    font-family: 'ZCOOL KuaiLe', cursive;
+	font-size: 20px;
+	font-weight: normal;
+	margin-bottom: 20px;
+    
+    
+}
+.menu{
+    font-family: 'ZCOOL KuaiLe', cursive;
+	font-size: 15px;
+	font-weight: normal;
+	margin-bottom: 10px;
+    
+}
+.menu__logo{
+    align-items:center;
+    position:static;
+    justify-content: center;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    padding-left: 150px;
+}
+
+.cuerpo{
+    width:80%;
+margin: auto;
+
+}
+.cuerpo__diario{
+    margin: 70px 0;
+	height: auto;
+    
+   
+}
+
+
+.diario__titulo{
+    text-align: center;
+	margin: 70px 0;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+.postre{
+    background-image: url("../img/fondo.jpg");
+	background-size: 50%;
+    /*background: #fff;*/
+    border-radius: 15px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-bottom: 50px;
+	/*opacity: 0.2;*/
+}
+.postre__thumbnail{
+    width: 250px;
+	height: 200px;
+	margin-right: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	display: inline-block;
+}
+.postre__img{
+    width: 250px;
+	overflow: hidden;
+}
+.postre__extracto{
+    line-height: 28px;
+	color: #5f5858;
+	margin-bottom: 20px;
+    font-size: 1em;
+    font-family: 'Mate SC', serif;
+}
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+.postre__titulo{
+    font-family: 'ZCOOL KuaiLe', cursive;
+	font-size: 30px;
+	font-weight: normal;
+	margin-bottom: 20px
+}
